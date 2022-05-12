@@ -1,0 +1,12 @@
+"use strict";
+exports.__esModule = true;
+var Vector_1 = require("./Vector");
+var nvector = new Vector_1.Vector(4, 6);
+var nVector2 = new Vector_1.Vector(4, 6);
+nvector.print();
+nvector.add(nVector2);
+nvector.subs(nVector2);
+nVector2.mul(7);
+nvector.print();
+nvector.prod(nVector2);
+nvector.print();
